@@ -1,0 +1,61 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url("./fondo2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.contenedor {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.cajaDeTexto {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.cajaDeTexto textarea {
+    height: 200px;
+    width: 500px;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(247, 240, 255, 0.822);
+}
+
+.botones {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    filter: drop-shadow(15px 14px 20px rgba(#000000));
+}
+
+.botones input {
+    width: 30px;
+    margin: 0 15px 0 15px;
+    border-radius: 10px;
+    padding: 7px 7px 7px 7px;
+    color: #01360d;
+    border: 2px solid #01360d;
+}
+
+button {
+    border-radius: 10px;
+    padding: 7px 7px 7px 7px;
+    color: #01360d;
+    border: 2px solid #01360d;
+}
